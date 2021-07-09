@@ -1,0 +1,13 @@
+.app {
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list {
+  flex-grow: 1;
+  width: 33%;
+}
