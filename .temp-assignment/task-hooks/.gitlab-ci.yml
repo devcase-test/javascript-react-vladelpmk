@@ -1,0 +1,10 @@
+image: node:latest
+ 
+stages:
+    - test
+ 
+run-unit-test:
+    stage: test
+    script:
+        - npm install # Install all dependencies
+        - npm test # Test 
