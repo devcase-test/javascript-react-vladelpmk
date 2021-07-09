@@ -45,7 +45,7 @@ function App() {
             onClick={() => syncChanges()}
             disabled={numberOfPendingChanges < 1}
           >
-            Sync all changes
+            Sync all changes AAA
           </button>
         </p>
         <p>{toManyUncompletedTodos && "To many uncompleted Todos!!!"}</p>
